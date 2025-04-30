@@ -1,12 +1,10 @@
 import React from 'react';
-import ComingSoon from "./ComingSoon";
-import Footer from './footer/Footer';
+import AppRouter from "../src/router/Router"
 
 const App = () => {
   return (
     <>
-      <ComingSoon />
-      <Footer/>
+      <AppRouter />
     </>
   );
 };

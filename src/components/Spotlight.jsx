@@ -42,7 +42,7 @@ const Spotlight = () => {
           </button>
         </div> */}
 
-        <div className="mt-6">
+        <div className="">
           <h1 className="text-center text-white text-xl sm:text-2xl md:text-4xl fontbold">
             We Are Launching Soon...
           </h1>

@@ -2,7 +2,10 @@ import React from "react";
 import Slider from "react-slick";
 import anizo1 from "../assets/images/anizo1.jpg";
 import anizoBg from "../assets/images/anizoBg.jpg";
-
+import anizo2 from "../assets/images/anizo2.jpg";
+import anizo3 from "../assets/images/anizo3.jpg";
+import anizo4 from "../assets/images/anizo4.jpg";
+import "../../src/index.css";
 const Spotlight = () => {
   const settings = {
     dots: false,
@@ -16,7 +19,7 @@ const Spotlight = () => {
     pauseOnHover: false,
   };
 
-  const images = [anizo1, anizoBg];
+  const images = [anizo1, anizoBg, anizo2, anizo3, anizo4];
 
   return (
     <div className="relative w-full h-screen overflow-hidden">
@@ -32,22 +35,29 @@ const Spotlight = () => {
         ))}
       </Slider>
 
-      <div className="absolute z-10 w-full px-4 md:px-0 md:w-[529px] bottom-20 md:bottom-[91px] right-1/2 md:right-[490px] transform md:translate-x-0 translate-x-1/2">
-        {/* <div className="flex flex-col md:flex-row justify-center items-center gap-4">
+      <div className="absolute z-10 w-full px-4 md:px-0 md:w-[529px] bottom-32 md:bottom-[120px] right-1/2 md:right-[490px] transform md:translate-x-0 translate-x-1/2">
+        <div className="">
+          <p className="text-center text-white text-2xl sm:text-4xl md:text-4xl font-bold typing-loop">
+            We Are Launching Soon...
+          </p>
+        </div>
+      </div>
+      {/* <div className="absolute z-10 w-full px-4 md:px-0 md:w-[529px] bottom-20 md:bottom-[91px] right-1/2 md:right-[490px] transform md:translate-x-0 translate-x-1/2">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-4">
           <button className="w-full md:w-[200px] text-white border border-white px-4 py-2">
             Signature
           </button>
           <button className="w-full md:w-[200px] text-white border border-white px-4 py-2">
             Click Me
           </button>
-        </div> */}
+        </div>
 
-        <div className="">
-          <p className="text-center text-white text-xl sm:text-4xl md:text-6xl font-bold">
-            We Are Launching Soon...
+        <div className="mt-6">
+          <p className="text-center text-white text-xl sm:text-2xl md:text-3xl font-light">
+            Browse from our signature collection
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

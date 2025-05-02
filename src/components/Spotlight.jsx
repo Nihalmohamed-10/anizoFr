@@ -33,19 +33,19 @@ const Spotlight = () => {
       </Slider>
 
       <div className="absolute z-10 w-full px-4 md:px-0 md:w-[529px] bottom-20 md:bottom-[91px] right-1/2 md:right-[490px] transform md:translate-x-0 translate-x-1/2">
-        <div className="flex flex-col md:flex-row justify-center items-center gap-4">
+        {/* <div className="flex flex-col md:flex-row justify-center items-center gap-4">
           <button className="w-full md:w-[200px] text-white border border-white px-4 py-2">
             Signature
           </button>
           <button className="w-full md:w-[200px] text-white border border-white px-4 py-2">
             Click Me
           </button>
-        </div>
+        </div> */}
 
         <div className="mt-6">
-          <p className="text-center text-white text-xl sm:text-2xl md:text-3xl font-light">
-            Browse from our signature collection
-          </p>
+          <h1 className="text-center text-white text-xl sm:text-2xl md:text-4xl fontbold">
+            We Are Launching Soon...
+          </h1>
         </div>
       </div>
     </div>

@@ -43,9 +43,9 @@ const Spotlight = () => {
         </div> */}
 
         <div className="">
-          <h1 className="text-center text-white text-xl sm:text-2xl md:text-4xl fontbold">
+          <p className="text-center text-white text-xl sm:text-4xl md:text-6xl font-bold">
             We Are Launching Soon...
-          </h1>
+          </p>
         </div>
       </div>
     </div>

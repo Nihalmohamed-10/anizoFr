@@ -35,14 +35,14 @@ const Spotlight = () => {
         ))}
       </Slider>
 
-      <div className="absolute z-10 w-full px-4 md:px-0 md:w-[529px] bottom-32 md:bottom-[120px] right-1/2 md:right-[490px] transform md:translate-x-0 translate-x-1/2">
+      {/* <div className="absolute z-10 w-full px-4 md:px-0 md:w-[529px] bottom-32 md:bottom-[120px] right-1/2 md:right-[490px] transform md:translate-x-0 translate-x-1/2">
         <div className="">
           <p className="text-center text-white text-2xl sm:text-4xl md:text-4xl font-bold typing-loop">
             We Are Launching Soon...
           </p>
         </div>
-      </div>
-      {/* <div className="absolute z-10 w-full px-4 md:px-0 md:w-[529px] bottom-20 md:bottom-[91px] right-1/2 md:right-[490px] transform md:translate-x-0 translate-x-1/2">
+      </div> */}
+      <div className="absolute z-10 w-full px-4 md:px-0 md:w-[529px] bottom-20 md:bottom-[91px] right-1/2 md:right-[490px] transform md:translate-x-0 translate-x-1/2">
         <div className="flex flex-col md:flex-row justify-center items-center gap-4">
           <button className="w-full md:w-[200px] text-white border border-white px-4 py-2">
             Signature
@@ -57,7 +57,7 @@ const Spotlight = () => {
             Browse from our signature collection
           </p>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

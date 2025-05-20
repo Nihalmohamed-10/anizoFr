@@ -42,7 +42,7 @@ const Spotlight = () => {
           </p>
         </div>
       </div> */}
-      <div className="absolute z-10 w-full px-4 md:px-0 md:w-[529px] bottom-20 md:bottom-[91px] right-1/2 md:right-[585px] transform md:translate-x-0 translate-x-1/2">
+      <div className="absolute bottom-20 md:bottom-[91px] left-1/2 transform -translate-x-1/2 z-10 w-full md:w-[529px] px-4 md:px-0">
         <div className="flex flex-col md:flex-row justify-center items-center gap-4">
           <button className="w-full md:w-[200px] text-white border border-white px-4 py-2">
             Signature

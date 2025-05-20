@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import item from "../assets/images/item.jpg";
+import item from "../assets/images/Item.jpg";
 import modal from "../assets/images/modal-opener.jpg";
 import wtsp from "../assets/images/WhatsAppImage2.jpg";
 

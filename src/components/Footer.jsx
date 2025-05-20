@@ -6,7 +6,6 @@ const Footer = () => {
   return (
     <footer className="bg-white text-xs text-gray-700 border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-4 py-10">
-        {/* Top Section: Email + Icon */}
         <div className="flex flex-wrap justify-between items-center gap-4 mb-8">
           <div className="flex flex-col">
             <p className="mb-2 text-sm text-gray-900">
@@ -27,7 +26,6 @@ const Footer = () => {
             </form>
           </div>
 
-          {/* Instagram Icon */}
           <div className="mb-5 text-gray-900 text-2xl mt-8">
             <a href="#" className="hover:text-gray-500">
               <FaInstagram />
@@ -35,10 +33,8 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Divider */}
         <div className="border-t border-gray-200 mb-4"></div>
 
-        {/* Bottom Links */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center space-y-3 md:space-y-0">
           <div className="flex flex-wrap items-center gap-3 text-gray-500">
             <p className="text-gray-700">© 2025, fumme</p>
